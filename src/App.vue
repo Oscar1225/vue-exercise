@@ -7,7 +7,7 @@
         <ContainerComponent2/>
     </div>
       <br>
-      <div class="container3">
+    <div class="container3">
         <a href="#" class="b">Home</a>
         <a href="#" class="b">Payment</a>
         <a href="#" class="b">Paymddent</a>
@@ -32,70 +32,70 @@
         </label>
         </div>
         <br>
-                <div class="wrapper">
-            <div class="container4">
-                <h1 class="title">Activate account</h1>
+    <div class="wrapper">
+        <div class="container4">
+            <h1 class="title">Activate account</h1>
 
-                <span class="c1">
-                    <h2 class="c2">step1</h2>
-                    <h2>Contact Information</h2>
-                    <h2>in progress</h2>
-                </span>
-    
-                <span class="c1">
-                    <h2 class="c2">step2</h2>
-                    <h2>Business Information</h2>
-                    <h2>in progress</h2>
-                </span>
-    
-                <span class="c1">
-                    <h2 class="c2">step3</h2>
-                    <h2>Banking Information</h2>
-                    <h2>in progress</h2>
-                </span>
-    
-                <span class="c1">
-                    <h2 class="c2">step4</h2>
-                    <h2>Ownership Information</h2>
-                    <h2>in progress</h2>
-                </span>
-    
-                <span class="c1">
-                    <h2 class="c2">step5</h2>
-                    <h2>Terms & Information</h2>
-                    <h2>in progress</h2>
-                </span>
+            <span class="c1">
+                <h2 class="c2">step1</h2>
+                <h2>Contact Information</h2>
+                <h2>in progress</h2>
+            </span>
+
+            <span class="c1">
+                <h2 class="c2">step2</h2>
+                <h2>Business Information</h2>
+                <h2>in progress</h2>
+            </span>
+
+            <span class="c1">
+                <h2 class="c2">step3</h2>
+                <h2>Banking Information</h2>
+                <h2>in progress</h2>
+            </span>
+
+            <span class="c1">
+                <h2 class="c2">step4</h2>
+                <h2>Ownership Information</h2>
+                <h2>in progress</h2>
+            </span>
+
+            <span class="c1">
+                <h2 class="c2">step5</h2>
+                <h2>Terms & Information</h2>
+                <h2>in progress</h2>
+            </span>
+        </div>
+        <div class="container5">
+            <h1 class="title1">Let's activate your account</h1>
+            <h2 class="a1">The application is fast,and only take about 5 minutes</h2>
+
+            <div class="a2">
+                <h3 class="a3">First Name*</h3>
+                <h3 class="a3">Last Name*</h3>
             </div>
-            <div class="container5">
-                <h1 class="title1">Let's activate your account</h1>
-                <h2 class="a1">The application is fast,and only take about 5 minutes</h2>
 
-                <div class="a2">
-                    <h3 class="a3">First Name*</h3>
-                    <h3 class="a3">Last Name*</h3>
-                </div>
+            <div class="a2">
+                <h4 class="a4">Nombre</h4>
+                <h4 class="a4">Apellido</h4>
+            </div>
 
-                <div class="a2">
-                    <h4 class="a4">Nombre</h4>
-                    <h4 class="a4">Apellido</h4>
-                </div>
-
-                <div class="a2">
-                    <h5 class="a3">Email*</h5>
-                    <h5 class="a3">Phone*</h5>
-                </div>
-                    
-                <div class="a2">
-                    <h6 class="a4">email@domain.com</h6>
-                    <h6 class="a4"><img :src="imgsrc" />  +886 | 3455 4546 567</h6>
+            <div class="a2">
+                <h5 class="a3">Email*</h5>
+                <h5 class="a3">Phone*</h5>
+            </div>
+                
+            <div class="a2">
+                <h6 class="a4">email@domain.com</h6>
+                <h6 class="a4"><img :src="imgsrc" />  +886 | 3455 4546 567</h6>
             </div>
         </div>
-        </div>
-        <br>
-        <div class="container6">
-            <button class="b t f">Save and finish later</button>
-            <button class="red f">Next Step-></button>
-        </div>
+    </div>
+    <br>
+    <div class="container6">
+        <button class="b t f">Save and finish later</button>
+        <button class="red f">Next Step-></button>
+    </div>
 
 </template>
 
