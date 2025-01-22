@@ -6,7 +6,7 @@
     <div>
         <ContainerComponent2/>
     </div>
-      <br>
+    <br>
     <div class="container3">
         <a href="#" class="b">Home</a>
         <a href="#" class="b">Payment</a>
@@ -30,8 +30,8 @@
             </span>
             <span class="text">Test Mode</span>
         </label>
-        </div>
-        <br>
+    </div>
+    <br>
     <div class="wrapper">
         <div class="container4">
             <h1 class="title">Activate account</h1>
