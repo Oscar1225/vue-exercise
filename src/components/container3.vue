@@ -20,7 +20,7 @@
                 <span class="btn">
                 </span>      
             </span>
-            <span>Test Mode</span>
+            <span class="text">Test Mode</span>
         </label>
     </div>
 </template>
