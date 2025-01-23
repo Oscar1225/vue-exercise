@@ -78,9 +78,9 @@
 </template>
 
 <script>
-import ContainerComponent from './components/container.vue';
-import ContainerComponent2 from './components/container2.vue';
-import ContainerComponent3 from './components/container3.vue';
+import ContainerComponent from './components/containerall/container.vue';
+import ContainerComponent2 from './components/containerall/container2.vue';
+import ContainerComponent3 from './components/containerall/container3.vue';
 export default {
   name: 'App',
   components: {
