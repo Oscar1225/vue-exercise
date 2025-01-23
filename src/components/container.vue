@@ -18,7 +18,7 @@ export default {
     border-radius: 8px;
     margin-left: 10px;
     margin-right: 10px;
-}
+  }
   .beta{
     border:5px;
     background-color: deepskyblue;
