@@ -1,14 +1,8 @@
 <template>
-    <div>
-        <ContainerComponent />
-    </div>
-    <div>
-        <ContainerComponent2/>
-    </div>
+    <ContainerComponent />
+    <ContainerComponent2/>
     <br>
-    <div>
-        <ContainerComponent3/>
-    </div>
+    <ContainerComponent3/>
     <br>
     <div class="wrapper">
         <div class="container4">
@@ -70,23 +64,21 @@
         </div>
     </div>
     <br>
-    <div class="container6">
-        <button class="b t f">Save and finish later</button>
-        <button class="red f">Next Step-></button>
-    </div>
-
+    <ContainerComponent6/>
 </template>
 
 <script>
 import ContainerComponent from './components/containerall/container.vue';
 import ContainerComponent2 from './components/containerall/container2.vue';
 import ContainerComponent3 from './components/containerall/container3.vue';
+import ContainerComponent6 from './components/containerall/container6.vue';
 export default {
   name: 'App',
   components: {
     ContainerComponent,
     ContainerComponent2,
     ContainerComponent3,
+    ContainerComponent6,
   },
   data(){
     return{
@@ -126,13 +118,6 @@ export default {
     background-color: white;
     margin-right: 10px;
 }
-.container6{
-    display: flex;
-    justify-content: end;
-    border-radius: 8px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 a {
     text-decoration: none;
     color: #333;
@@ -162,9 +147,6 @@ select{
 }
 .b5{
     margin-right: auto;
-}
-img{
-    background-color: white;
 }
 .t{
     background-color: transparent;
