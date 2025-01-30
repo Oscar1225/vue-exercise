@@ -48,8 +48,8 @@
             </div>
 
             <div class="a2">
-                <h4 class="a4">Nombre</h4>
-                <h4 class="a4">Apellido</h4>
+                <input type="text" id="firstname" name="firstname" placeholder="Nombres" class="a4">
+                <input type="text" id="lastname" name="lastname" placeholder="Apellido" class="a4">
             </div>
 
             <div class="a2">
@@ -58,8 +58,8 @@
             </div>
                 
             <div class="a2">
-                <h6 class="a4">email@domain.com</h6>
-                <h6 class="a4"><img :src="imgsrc" />  +886 | 3455 4546 567</h6>
+                <input type="text" id="email" name="email" placeholder="email@domain.com" class="a4">
+                <input type="text" id="email" name="email" placeholder=" +886 | 3455 4546 567" class="a4">
             </div>
         </div>
     </div>
@@ -80,11 +80,6 @@ export default {
     ContainerComponent3,
     ContainerComponent6,
   },
-  data(){
-    return{
-        imgsrc: new URL('@/assets/ROC.png', import.meta.url).href,
-    }
-  }
 }
 </script>
 
