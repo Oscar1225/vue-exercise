@@ -59,7 +59,7 @@
                 
             <div class="a2">
                 <input type="text" id="email" name="email" placeholder="email@domain.com" class="a4">
-                <input type="text" id="email" name="email" placeholder=" +886 | 3455 4546 567" class="a4">
+                <input type="text" id="phone" name="phone" placeholder=" +886 | 3455 4546 567" class="a4">
             </div>
         </div>
     </div>
